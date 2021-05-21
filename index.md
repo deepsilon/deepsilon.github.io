@@ -3,4 +3,4 @@
 
 ## We are Deepsilon - An experienced team of data scientists and mathematicians providing to companies artificial intelligence solutions.
 
-[Our Team](team.md)
+<p class="view"><a href="{{ site.github.deepsilon }}">View Our GitHub Profile </a><br><a href="https://twitter.com/Deepsilon">View Our Twitter Profile </a></p>
