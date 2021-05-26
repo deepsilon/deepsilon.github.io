@@ -1,73 +1,30 @@
 <!DOCTYPE html>
-<html> 
+<html>
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2FL6N6JSDV"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-    gtag('config', 'G-2FL6N6JSDV');
-    </script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
 
-    <link rel="shortcut icon" type="image/png" href="/img/webico.ico" />
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-    <link rel="stylesheet" href="/css/academicons.css" />
-    <link rel="stylesheet" href="/css/style.css" />
-
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-    <script defer src="/navbar.js"></script>
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 </head>
+<body>
 
-<body class="has-navbar-fixed-top">
-
-    <!-- Top bar -->
-    <nav class="navbar is-spaced is-fixed-top" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <div class="navbar-item">
-                <a href="mailto:deepsilonconsulting@gmail.com" target="_blank">
-                    <i class="fa fa-envelope"></i>
-                </a>
-            </div>
-            <div class="navbar-item">
-                <a href="https://github.com/deepsilon/" target='_blank'>
-                    <i class="fab fa-github"></i>
-                </a>
-            </div>
-            <div class="navbar-item">
-                <a href="https://twitter.com/deepsilon" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </div>
-
-            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false"
-                id="navBurger">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>
-           
-        <div class="navbar-end has-text-centered">
-             <div class="navbar-item">
-                <a href="/">About</a>
-        </div>
-        <div class="navbar-menu" id="navMenu">
-            <div class="navbar-end has-text-centered">
-                <div class="navbar-item">
-                    <a href="/Team/">Team</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-            <!-- Main content -->
 <h2>Our Team</h2>
 
 <div class="row">
@@ -93,4 +50,3 @@
 
 </body>
 </html>
-   
